@@ -1,3 +1,5 @@
+import sbt.util
+
 /** Name of project */
 name := "RedditParseURLs"
 
@@ -6,6 +8,9 @@ organization := "com.github.sguzman"
 
 /** Project Version */
 version := "1.0"
+
+/** Logging Level */
+logLevel := util.Level.Debug
 
 /** Scala version */
 scalaVersion := "2.12.4"
